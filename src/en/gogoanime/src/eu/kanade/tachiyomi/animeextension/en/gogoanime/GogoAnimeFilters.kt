@@ -205,6 +205,7 @@ object GogoAnimeFilters {
         // copy($("div.cls_year ul.dropdown-menu li").map((i,el) => `Pair("${$(el).text().trim()}", "${$(el).find("input").first().attr('value')}")`).get().join(',\n'))
         // on /filter.html
         val YEAR_SEARCH_LIST = arrayOf(
+            Pair("2024", "2024"),
             Pair("2023", "2023"),
             Pair("2022", "2022"),
             Pair("2021", "2021"),
@@ -366,6 +367,9 @@ object GogoAnimeFilters {
         val SEASON_LIST = arrayOf(
             Pair("<select>", ""),
             Pair("Latest season", "new-season.html"),
+            Pair("Spring 2024", "sub-category/spring-2024-anime"),
+            Pair("Winter 2024", "sub-category/winter-2024-anime"),
+            Pair("Fall 2023", "sub-category/fall-2023-anime"),
             Pair("Summer 2023", "sub-category/summer-2023-anime"),
             Pair("Spring 2023", "sub-category/spring-2023-anime"),
             Pair("Winter 2023", "sub-category/winter-2023-anime"),
